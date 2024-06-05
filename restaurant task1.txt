@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Bites Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: mediumseagreen;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+color:tomato;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+section {
+    padding: 50px 0;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+.menu-item {
+    margin-bottom: 40px;
+}
+
+.menu-item ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to AKSHII'S restaurant</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Cusine:offers a diverse menu featuring gourmet dishes various from mexican,iitalian<br>Ambiance:provides a sophisticated inviting atmosphere with elegant decor,soft lighting and comfortable seating <br>sources only the freshest and finest ingredients from local farmers.</p>
+        </div>
+    </section>
+
+    <section id="menu">
+        <div class="container">
+            <h2>Our Menu</h2>
+            <div class="menu-item">
+                <h3>food</h3>
+                <ol>
+                    <li>chicken biryani</li>
+                    <li>chicken leg piece  biryani</li>
+                    <li>hyderabad biryani</li>
+                    <li>fry piece biryani</li>
+                </ol>
+            </div>
+            <div class="menu-item">
+                <h3>starters</h3>
+                <ol>
+                    <li>prawn cocktail</li>
+                    <li>paneer tikka</li>
+                    <li>spring rolls</li>
+                </ol>
+            </div>
+            <div class="menu-item">
+                <h3>mexican cusine</h3>
+                <ol>
+                    <li>Tacos</li>
+                    <li>Chocolate Lava Cake</li>
+                    <li>Cheesecake</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>NH-16 AKSHII'S restaurant city:vishakapatnam,country:india</p>
+            <p>Phone: 123-456-7890</p>
+            <p>Email: akshiii@gmail.com</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 our restaurant. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
